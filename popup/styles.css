@@ -1,0 +1,102 @@
+/* Estilo para o corpo da página */
+#body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 1rem;
+    width: 500px;
+    max-width: 100vw;
+}
+
+/* Estilo para o cabeçalho */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Estilo para o contêiner do seletor e botão */
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Estilo para o seletor */
+.type-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+/* Estilo para o botão "Generate" */
+.btn.primary {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/* Estilo para a lista histórica */
+#historic-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+/* Estilo para os itens históricos */
+.historic-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.historic-item > h2 {
+    font-size: 12px;
+}
+
+#historic-item-actions {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para os botões "Copy" e "Delete" */
+.btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+/* Estilo para os botões "Copy" */
+.btn.success {
+    background-color: #4caf50;
+}
+
+/* Estilo para os botões "Delete" */
+.btn.danger {
+    background-color: #ff5722;
+}
